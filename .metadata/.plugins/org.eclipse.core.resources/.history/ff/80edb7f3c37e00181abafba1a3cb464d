@@ -1,0 +1,23 @@
+package com.BrowserAutomation;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class ChromeBrowser_Automation {
+
+	public static void main(String[] args)
+	{
+		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\Srikishan Tatikonda\\Desktop\\SriKishanSelenium\\WebApplicationTesting\\DriverFiles\\chromedriver.exe");
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("http://facebook.com");
+		driver.close();*/
+		
+		System.setProperty("webdriver.edge.driver", "C:\\Users\\Srikishan Tatikonda\\Desktop\\SriKishanSelenium\\WebApplicationTesting\\DriverFiles\\MicrosoftWebDriver (1).exe");
+		
+		EdgeDriver driver = new EdgeDriver();
+		driver.get("http://yahoo.com");
+
+	}
+
+}
